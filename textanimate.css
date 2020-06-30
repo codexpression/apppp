@@ -1,0 +1,25 @@
+
+.textbox {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 80vw;
+}
+
+.textbox p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.textbox button {
+  position: relative;
+  top: 15px;
+  left: 35%;
+   background: transparent;
+   color: white;
+   border: 1px solid white;
+   padding: 10px 12px;
+}

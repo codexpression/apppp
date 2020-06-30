@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./textanimate.css">
+  <link rel="stylesheet" href="./reveal.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="./white.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="preloader">
+    <div class="loader">
+      <div class="inner one"></div>
+      <div class="inner two"></div>
+      <div class="inner three"></div>
+    </div>
+  </div>
+  
+  <div class="login" style="display:block">
+    <div class="form animated flipInX">
+      <h2>Hi there!</h2>
+      <form onsubmit="handleSubmit();">
+        <input id="passcodebox" placeholder="Enter your passcode..." type="text">
+        <p class="msg" style="color: tomato; display:none"><small>Wrong. please try again</small></p>
+        <button>Login</button>
+      </form>
+    </div>
+  </div>
+  <div class="writeup" style="position:relative;display:none">
+      <div class="textbox">
+        <p id="pauseResume"></p>
+        <button id="freezeButton">Pause to read</button>
+      </div>
+      <div class="reveal">
+        <div class="slides">
+          <section>Horizontal Slide</section>
+          <section>
+            <section>Vertical Slide 1</section>
+            <section>Vertical Slide 2</section>
+          </section>
+        </div>
+      </div>
+  </div>
+  <!--<footer>
+    &copy; 2020 Designed by Darkmyke
+  </footer>
+  
+  <!-- Project -->
+  <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+  <script src="./reveal.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./textanimate.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
